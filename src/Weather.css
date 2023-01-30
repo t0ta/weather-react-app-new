@@ -1,0 +1,38 @@
+.Weather {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(239, 246, 249) 0%,
+    rgb(206, 239, 253) 90%
+  );
+  border-radius: 4px;
+  padding: 15px;
+}
+
+.Weather h1 {
+  color: #ff7f50;
+  font-size: 30px;
+  margin: 0;
+}
+
+.Weather img {
+  margin-right: 5px;
+  width: 90px;
+}
+
+.Weather .temperature {
+  font-size: 64px;
+}
+
+.Weather .unit {
+  line-height: 4;
+  margin-left: 5px;
+}
+
+.Weather ul {
+  margin: 0;
+  padding: 0;
+}
+
+.Weather li {
+  list-style: none;
+}

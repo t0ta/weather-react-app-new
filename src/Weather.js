@@ -5,7 +5,7 @@ import "./Weather.css";
 export default function Weather() {
   return (
     <div className="Weather">
-      <form>
+      <form className="search-form">
         <div className="row">
           <div className="col-4">
             <input type="search" placeholder="Enter a city ..." />
@@ -15,15 +15,17 @@ export default function Weather() {
           </div>
         </div>
       </form>
-      <div className="row">
-        <div className="col-8">
+      <div className="row  mt-3">
+        <div className="col-6 d-flex">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
             alt="description"
           />
-          -2 ℃
+
+          <span className="temperature">-2</span>
+          <span className="unit">℃</span>
         </div>
-        <div className="col-4">
+        <div className="col-6">
           <h1>Kyiv, Ukraine</h1>
           <ul>
             <li>Sunday, 22:00</li>

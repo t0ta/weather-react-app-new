@@ -8,7 +8,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-        <footer>
+        <footer className="footer">
           This App was coded by t0ta, open-sourced on{" "}
           <a href="https://github.com/t0ta/weather-react-app-new">GitHub</a> and
           hosted on{" "}
