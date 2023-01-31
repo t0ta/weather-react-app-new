@@ -7,7 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="Kyiv" />
         <footer className="footer">
           This App was coded by t0ta, open-sourced on{" "}
           <a href="https://github.com/t0ta/weather-react-app-new">GitHub</a> and
