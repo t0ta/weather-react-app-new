@@ -15,8 +15,8 @@
 }
 
 .Weather img {
-  margin-right: 5px;
-  width: 90px;
+  width: 100px;
+  height: 100px;
 }
 
 .Weather .temperature {
