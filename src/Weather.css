@@ -23,8 +23,9 @@
   font-size: 64px;
 }
 
-.Weather .unit {
+.WeatherTemperature .unit {
   line-height: 4;
+  margin-left: 5px;
 }
 
 .Weather ul {
