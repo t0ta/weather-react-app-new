@@ -1,6 +1,7 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherTemperature from "./WeatherTemperature";
+import "./WeatherInfo.css";
 
 export default function WeatherInfo(props) {
   return (
@@ -22,7 +23,7 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
       </div>
-      <ul>
+      <ul className="WeatherInfoList">
         <li>Humidity: {props.data.humidity}%</li>
         <li>Wind: {props.data.wind} kph</li>
         <li>Fells like: {Math.round(props.data.feelsLike)}℃</li>
